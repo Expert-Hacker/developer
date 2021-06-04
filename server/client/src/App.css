@@ -1,0 +1,254 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.name_clr{
+  color: rgb(120, 187, 20);
+}
+.abt_fnt{
+  color: red;
+}
+
+/* REGISTERTATION CSS */
+body{
+  overflow: hidden;
+}
+.signup_form{
+
+  height: 100vh;
+  width: 100vw;
+  
+   /* position: fixed; */
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.outer_cont{
+  /* border: 2px solid black; */
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 2px 2px 10px black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+  
+}
+.ui_icon1{
+  height: 30px;
+  width: 30px;
+}
+.inputs1{
+  /* border: 2px solid black; */
+  width: 250px;
+  display: flex; 
+}
+.inputs2{
+  /* border: 2px solid black; */
+  width: 250px;
+  display: flex; 
+}
+.inputs3{
+  /* border: 2px solid black; */
+  width: 250px;
+  display: flex; 
+}
+.inputs4{
+  /* border: 2px solid black; */
+  width: 250px;
+  display: flex; 
+}
+.inputs5{
+  /* border: 2px solid black; */
+  width: 250px;
+  display: flex; 
+}
+.left input{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid black;
+    box-shadow: none;
+    margin-left: 15px;
+}
+::placeholder{
+  padding-left: 10px;
+  justify-content: left;
+  text-align: left;
+}
+.left i{
+  font-size: 24px;
+}
+.image_div img{
+justify-content:center;
+align-items: center;
+}
+.btns_grp{
+  display: flex;
+  margin: 20px;
+}
+.heading h1{
+  font-family: 'Prompt', sans-serif;
+}
+/* HOME PAGE */
+.home_div{
+  padding-top: 50px;
+}
+.home_out_div{
+
+  /* background:linear-gradient(to left,rgba(0,0,0,0),rgba(0,0,0,0.6)), url('./images/home_bg.jpg'); */
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+  background-position: center;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+ 
+}
+.outer_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-arou nd;
+  align-items: center;
+ color: white;
+}
+.right_home img{
+  -webkit-filter: drop-shadow(5px 5px 5px #2b2828);
+  filter: drop-shadow(5px 5px 5px #dacdcd);
+}
+
+/* ABOUT US PAGE */
+.contact_out_cont{
+ 
+  padding-top: 100px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contact_div{
+  /* border: 2px solid black; */
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  
+}
+/* .left_about img{
+  border: 2px solid black;
+} */
+.left_about{
+  font-family: 'Prompt', sans-serif;
+}
+
+/* CONTACT US PAGE */
+.contact_us_out_div{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_inn_div{
+  /* border: 2px solid black; */
+  width: 160vh;
+  
+}
+.first{
+  /* border: 2px solid red; */
+  text-align: center;
+  row-gap: 20px;
+  /* margin-right: 6px; */
+  /* display: block; */
+}
+.first h5{
+  padding: 10px;
+  text-align: center;
+}
+.contact_inn_div{
+  background-color: black;
+}
+.access{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Landing Page */
+.landingpg_outer{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right,rgba(234,353,220,5)50%,rgba(200,353,220,5)50%);
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.landingpage_half{
+
+ text-align: center;
+  
+
+}
+.outer_error{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fafafa;
+}
+.error_div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.error_div{
+  position: relative;
+  top: 110px;
+}
