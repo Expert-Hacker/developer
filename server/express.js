@@ -11,9 +11,9 @@ require('./db/db')
 app.use(require('./routers/router'))
 
 app.use(cookies())
-app.get("/",(req,res)=>{
-    res.send("Hello from express server")
-}) 
+// app.get("/",(req,res)=>{
+//     res.send("Hello from express server")
+// }) 
 
 app.get("/about",(req,res)=>{
     res.cookie("kee","djfdhfj")
